@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./_css/reset.css">
+    <link rel="stylesheet" href="./_css/style.css">
+    <title>Alura Challenge</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="./index.html"><img class="logo-alura" src="./_img/logo.png"></a></h1>
+            <div class="pesquisa">
+                <input class="barra-pesquisa" type="text" placeholder="Busque por algo">
+            </div>
+            <div class="usuario">
+                <a href="index.html"><img class="foto-signin" src="./_img/sign-in.PNG"><p>Nome</p></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--div Menu Esquerda-->
+        <section class="principal">
+            <div class="itens-menu">
+                <h2>MENU</h2>
+                <div class="btn-editar">
+                    <a href="index.html"><img src="./_img/Icon.png">
+                    <p>Editar</p></a>
+                </div>
+                <div class="btn-comunidade">
+                    <a href="comunidade.html"><img src="./_img/community.png"><p>Comunidade</p></a>        
+                </div>
+            </div>
+           
+        </section>
+
+        <!--Editor-->
+        <section id="editor">
+            <input type="text" id="editor-texto">
+            <img id="btn-code" src="./_img/buttonscode.png">
+            <div>
+                <button id="btn-highlight">Highlight</button>
+            </div>
+        </section>
+
+        
+
+        <!--div Menu Direita-->
+        <section class="seu-projeto">
+            
+            <div class="projeto-descricao">
+                <p>Seu projeto</p>
+                <input class="nome-projeto" type="text" placeholder="Nome Projeto">
+                <input class="nome-projeto" type="text" placeholder="Descrição">
+            </div>
+            <select class="personalizacao">
+                <option>JavaScript</option>
+                <option>Python</option>
+            </select>
+
+            <select id="colors" style="background-color: rgb(0, 0, 255);">
+                <option style="background-color: rgb(0, 0, 255);"></option>
+                <option style="background-color: rgb(255, 153, 153);"></option>
+                <option style="background-color: rgb(102, 204, 255);"></option>
+                <option style="background-color: rgb(153, 255, 204);"></option>
+                <option style="background-color: rgb(153, 255, 102);"></option>
+                <option style="background-color: rgb(255, 255, 102);"></option>
+                <option style="background-color: rgb(255, 153, 204);"></option>
+            </select>
+
+            <button id="botao-salvar" type="submit">Salvar projeto</button> 
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
